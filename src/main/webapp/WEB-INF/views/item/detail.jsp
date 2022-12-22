@@ -308,6 +308,11 @@
 		</div>
 
 	</section>
+	<div class="d-flex justify-content-center">
+  <div class="spinner spinner-border text-primary" id="spinner" role="status">
+      <span class="visually-hidden">Loading...</span>
+  </div>
+</div>
 <c:import url="./mission.jsp"></c:import>
 	<c:import url="../template/footer.jsp"></c:import>
 	<script src="/js/timer.js"></script>
